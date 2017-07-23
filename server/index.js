@@ -85,9 +85,7 @@ app.set('views', path.join(__dirname, 'views'))
 app.engine('handlebars', exphbs())
 app.set('view engine', 'handlebars')
 app.set('x-powered-by', false)
-app.use('/public', express.static(path.join(__dirname, '../public'), {
-  maxage: '2h'
-}))
+app.use('/public', express.static(path.join(__dirname, '../public')))
 
 var server = app.listen(3000, function () {
   var port = server.address().port
