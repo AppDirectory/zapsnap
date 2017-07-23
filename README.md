@@ -30,6 +30,10 @@ npm run watch # watch for CSS/JS file changes and build
 npm run build # build CSS/JS for production
 ```
 
+## Attributions
+
+Logo created by il Capitano from [Noun Project](https://thenounproject.com/search/?q=zap&i=889349).
+
 ## License
 
 MIT
