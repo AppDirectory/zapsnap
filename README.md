@@ -25,7 +25,9 @@ of mobile browsers
 ## Development
 
 ```
-npm start
+npm start     # will start the server
+npm run watch # watch for CSS/JS file changes and build 
+npm run build # build CSS/JS for production
 ```
 
 ## License
